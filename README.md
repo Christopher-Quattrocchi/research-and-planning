@@ -3,3 +3,4 @@
 3/11: Python on freeCodeCamp all day.
 3/12: Continue in tutorial hell for python
 3/13: Should reach the end of tutorials today, after that I can work on the assignments on freeCodeCamp to get my cert and learn how to actually apply stuff.
+3/14: Was optimistic. Finishing the last tutorial now, can begin the actual projects soon. Friday and the weekend will likely be devoted to that
