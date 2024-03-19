@@ -61,6 +61,14 @@ Decided to stick with v3 for now. Will change over to v4 as part of an updated b
 Beginning to write code for the bot and learning about what parameters are necessary
 
 Able to connect wallet to dydx exchange api with python. Next, I have to be able to place an order and get data.
+
 What data I need for now: historical price data, 1hr time can be debated. is the opinion of the trader I'm following. Number of candles must be edited
 For orders: position_id, market, side, order_type, post_only, size, price, limit_fee, expiration_epoch_seconds, time_in_force. Once confident, look at limit
+
+Able to get market data and make orders
+
+Setting up VS Code environment for project
+There are 78 packages to install. Trying to get them to work and make sure things are compatible. 
+Everything installed, all errors resolved. 
+
 
