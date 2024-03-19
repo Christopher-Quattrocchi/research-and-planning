@@ -56,3 +56,9 @@ Learning to connect python to dydx
 
 Version changes making this difficult. As far as I can tell I'm following the doc but the v4_client_py module for dydx isn't being recognized. 
 
+Decided to stick with v3 for now. Will change over to v4 as part of an updated build.
+
+Beginning to write code for the bot and learning about what parameters are necessary
+
+Able to connect wallet to dydx exchange api with python
+
