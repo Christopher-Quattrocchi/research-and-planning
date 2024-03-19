@@ -50,7 +50,7 @@ Problems with goerli test net. The fake ethereum was sent, but does not appear t
 
 Switching to ethereum sepolia, a more supported test net. Was able to get it to send fake ethereum, and it actually registered.
 
-Connected metamask with dydx. Decided to go with that after all, as the process is unfamiliar and I'd like to see it done first. I do plan to switch to CEX, I think that would be a good challenge. Used dev tools to go into local storage and find a bunch of keys and other values that will be necessary later. Specifically the STAR_KEY_PAIRS and API_KEY_PAIRS
+Connected metamask with dydx. Decided to go with that after all, as the process is unfamiliar and I'd like to see it done first. I do plan to switch to CEX, I think that would be a good challenge. Used dev tools to go into local storage and find a bunch of keys and other values that will be necessary later. Specifically the STARK_KEY_PAIRS and API_KEY_PAIRS
 
 Learning to connect python to dydx
 
@@ -71,4 +71,5 @@ Setting up VS Code environment for project
 There are 78 packages to install. Trying to get them to work and make sure things are compatible. 
 Everything installed, all errors resolved. 
 
+Beginning build of alpha/mvp version
 
