@@ -73,3 +73,7 @@ Everything installed, all errors resolved.
 
 Beginning build of alpha/mvp version
 
+Things that will matter: Constants. Amount, Mode, Trigger. Get prices, manage open trades, clear all trades, open trades (effectively CRUD)
+
+
+
