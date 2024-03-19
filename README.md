@@ -54,4 +54,5 @@ Connected metamask with dydx. Decided to go with that after all, as the process 
 
 Learning to connect python to dydx
 
+Version changes making this difficult. As far as I can tell I'm following the doc but the v4_client_py module for dydx isn't being recognized. 
 
