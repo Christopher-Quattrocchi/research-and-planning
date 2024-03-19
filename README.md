@@ -35,3 +35,23 @@ half-life: how long for spread to revert back. Bot should look for low half-life
 Kelly Criterion: "position sizing matters". "Fractional Kelly Criterion as an alternative". Use machine learning to decide how much to apply (advanced). Determines what percent of your capital to allocate to a given trade. Using Kelly Criterion you can guarantee a sustainable profit with a 4-5 percent edge. Granted you can't always guarantee that, but sometimes you can. If you have a 51-49 percent edge, you allocate 2 percent of your capital. If you have a 55-45 edge, you allocate 10. success chance-failure chance
 
 Position sizing/risk management/more kelly criterion: Probably shouldn't use leverage as a beginner. Leverage is good for hedging. If you have 100, lose ten, have 90. You can't just gain 10 percent to get back to 100. Lose ten, but must gain more. Shifts odds against you. Enemy is trading cost/leverage. Should look into which markets have the best costs. The exchange is effectively a casino. Need a 54 percent win chance to overcome the fees and make a profit. Guy is claiming statistical arbitrage allows you to be the casino but I have no idea what he's on about.
+
+-------------------------
+
+3/19: Today will be largely dedicated to starting my initial build, and listening/reading explanations of how the various parts of the bot work. Not sure how many days this part will take. I don't want to just do a code-along obviously, so it should be heavily modified.
+
+Looks like some of this is outdated, as the goerli test net is going down soon. I'll probably have to interface with something else, which is fine. Also, I will probably connect this bot to CEX, as opposed to dydx. 
+
+Trying to figure out the testnet stuff. Using goerlifaucet for the time being. They've added security measures, now you need a small amount of real money in the main net before they will allow you to use the test net. Buying a little monero on kraken and sending it to metamask (I think) so that goerli will send me fake ethereum.
+
+Successfully added ethereum to my metamask wallet, and was able to connect to goerli and get 0.2 fake ETH
+
+Problems with goerli test net. The fake ethereum was sent, but does not appear to be registering in my testnet wallet. 
+
+Switching to ethereum sepolia, a more supported test net. Was able to get it to send fake ethereum, and it actually registered.
+
+Connected metamask with dydx. Decided to go with that after all, as the process is unfamiliar and I'd like to see it done first. I do plan to switch to CEX, I think that would be a good challenge. Used dev tools to go into local storage and find a bunch of keys and other values that will be necessary later. Specifically the STAR_KEY_PAIRS and API_KEY_PAIRS
+
+Learning to connect python to dydx
+
+
