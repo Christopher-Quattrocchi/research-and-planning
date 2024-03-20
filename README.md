@@ -72,12 +72,15 @@ There are 78 packages to install. Trying to get them to work and make sure thing
 Everything installed, all errors resolved. 
 
 Beginning build of alpha/mvp version
+Things that will matter: Constants. Amount, Mode, Trigger. Get prices, manage open trades, clear all trades, open trades (effectively CRUD)
 
 ---------------------------------------------
 
 Building app. What it has to do: Connect to DYDX, place market order, abort all open orders, construct market prices, store cointegrated pairs (I don't remember what this means!), and while true: manage existing trades, and open positions
 
-Things that will matter: Constants. Amount, Mode, Trigger. Get prices, manage open trades, clear all trades, open trades (effectively CRUD)
+
+
+
 
 
 
