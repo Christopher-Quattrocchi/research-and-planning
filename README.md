@@ -82,7 +82,13 @@ Blew everything up with compatibility issues
 
 Fixing things slowly
 
+----------------------------------------------
 
+3/21
+
+Still fixing incompatibilities
+
+Total defeat. Giving up, rewriting the whole thing in v4. The list of dependencies is absolutely endless, nothing is compatible. I can't find help, chatgpt doesn't work, etc. 
 
 
 
