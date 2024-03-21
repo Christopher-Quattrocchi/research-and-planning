@@ -90,6 +90,8 @@ Still fixing incompatibilities
 
 Total defeat. Giving up, rewriting the whole thing in v4. The list of dependencies is absolutely endless, nothing is compatible. I can't find help, chatgpt doesn't work, etc. 
 
+Environment finally working after endless registry editing and other nonsense. I have a better idea how to set up and manage environments now. There are problems when I run main.py and try to connect to dydx to close orders. The console gives me wrong info about how much money I have, and doesn't seem to successfully close the open orders. Still, progress.
+
 
 
 
