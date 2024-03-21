@@ -78,6 +78,10 @@ Things that will matter: Constants. Amount, Mode, Trigger. Get prices, manage op
 
 Building app. What it has to do: Connect to DYDX, place market order, abort all open orders, construct market prices, store cointegrated pairs (I don't remember what this means!), and while true: manage existing trades, and open positions
 
+Blew everything up with compatibility issues
+
+Fixing things slowly
+
 
 
 
