@@ -92,6 +92,13 @@ Total defeat. Giving up, rewriting the whole thing in v4. The list of dependenci
 
 Environment finally working after endless registry editing and other nonsense. I have a better idea how to set up and manage environments now. There are problems when I run main.py and try to connect to dydx to close orders. The console gives me wrong info about how much money I have, and doesn't seem to successfully close the open orders. Still, progress.
 
+--------------------------------------------------
+
+3/25
+Had to upgrade dydx-v3-python to work with sepolia network. Surprisingly, this didn't break dependencies. Bot can now successfully close open orders
+BUGFIX: Typo prevented bot from constructing market prices. Resolved
+
+
 
 
 
