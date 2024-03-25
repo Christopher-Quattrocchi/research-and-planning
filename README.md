@@ -96,7 +96,17 @@ Environment finally working after endless registry editing and other nonsense. I
 
 3/25
 Had to upgrade dydx-v3-python to work with sepolia network. Surprisingly, this didn't break dependencies. Bot can now successfully close open orders
+
 BUGFIX: Typo prevented bot from constructing market prices. Resolved
+
+Tried for a while to calculate cointegration and save cointegrated pairs. Was using a newer, apparently better method to calculate cointegration, but I couldn't get it to work with the API somehow. The old version is fine, and should do what it needs to. I don't understand why the newer version doesn't work and would like to.
+
+Bot saves cointegrated pairs to a csv file
+
+Working on bot agent
+
+
+
 
 
 
