@@ -103,7 +103,9 @@ Tried for a while to calculate cointegration and save cointegrated pairs. Was us
 
 Bot saves cointegrated pairs to a csv file
 
-Working on bot agent
+Working on bot agent. The bot agent will open and check trades
+
+Bot Agent more or less built, not yet tested
 
 
 
