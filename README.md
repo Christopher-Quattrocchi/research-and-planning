@@ -107,6 +107,13 @@ Working on bot agent. The bot agent will open and check trades
 
 Bot Agent more or less built, not yet tested
 
+---------------------------------------------------------
+3/26
+
+Building trading behavior
+
+Endless code along sections
+
 
 
 
