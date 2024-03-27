@@ -116,6 +116,17 @@ Endless code along sections
 
 Nearly done finishing main bot behaviors - placing orders, closing orders, analyzing the market, connecting wallet to api, etc. Most of the coding done. Next sections are about incorporating telegram so that the bot can warn you if it screws up, and hosting it on the cloud. At that point I have the fully functional bot. I've learned some, but once I have the bot I'll dig into it and have chatgpt/somebody break down exactly what's going on, maybe make a chart of it. Then I can begin planning the switch from metamask to rabby, and from dydx3 to dydx4 (or CEX). After that, I can examine the trading behavior in greater depth and see if I can optimize it further. 
 
+----------------------------------------------------------
+3/27
+
+Finishing main bot behaviors, only thing left is setting up telegram and hosting it on the cloud
+
+Nevermind, more coding
+
+Most functions done but having trouble getting certain sections of code to trigger when they should
+
+
+
 
 
 
