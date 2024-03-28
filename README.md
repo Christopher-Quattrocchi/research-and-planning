@@ -138,6 +138,8 @@ Note: people on the statistical arbitrage discord are saying that it can be very
 
 Learning how to deploy the bot to the cloud
 
+Bot can message telegram on my phone
+
 
 
 
