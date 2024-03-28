@@ -130,6 +130,14 @@ Most functions done but having trouble getting certain sections of code to trigg
 
 Trading bot works! Placing and making trades on the exchange. Must be run through the command line. This is great, but I don't think it's actually supposed to work yet?
 
+Trial run in progress
+
+Next will be enabling it to give error messages. 
+
+Note: people on the statistical arbitrage discord are saying that it can be very hard to make a profit like this because of gas fees. This is something I will have to address with my bot, either by finding some formula to tell me the max acceptable gas fee while making a profit, or by diversifying the trading strategies that the bot can use (or both)
+
+Learning how to deploy the bot to the cloud
+
 
 
 
