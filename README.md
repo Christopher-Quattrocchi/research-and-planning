@@ -125,8 +125,10 @@ Nevermind, more coding
 
 Most functions done but having trouble getting certain sections of code to trigger when they should
 
+------------------------------------------------------------
+3/28
 
-
+Trading bot works! Placing and making trades on the exchange. Must be run through the command line. This is great, but I don't think it's actually supposed to work yet?
 
 
 
