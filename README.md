@@ -140,6 +140,13 @@ Learning how to deploy the bot to the cloud
 
 Bot can message telegram on my phone
 
+Bot has error messages for all relevant errors
+
+Advantage of the cloud is I can control when it runs more easily
+
+Using EC2. Creating security group.
+
+Bot running on the cloud, and is correctly updating my phone via telegram. Going to leave this running for the foreseeable future. I need to learn about how gas prices affect this, and how the bot works in a more detailed and thorough way. Some of the crypto-heads in the trading discord think that there are easier strategies than statistical arbitrage, so I will try to learn more and incorporate that. Rabby seems to be a straight upgrade to metamask, so I need to think about switching that. An issue is that I have an insane amount of dependencies, and they're all pretty old. I'd like to make an updated version as I already had to change stuff to get this one to even run. There must be a way to update it without breaking everything. I need to create a UI for this eventually - an option to run on the cloud is nice and convenient, but I want to be able to alter parameters and behavior without editing the code or using the command line.
 
 
 
