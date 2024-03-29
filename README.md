@@ -152,6 +152,10 @@ Need to incorporate a cron file for full automation
 
 Need to connect this to a database instead of using a json file
 
+---------------------------------
+3/29 
+
+after doing some more research and chatting with crypto heads, ive come to the conclusion that statistical arbitrage, as a primary strategy for a crypto bot, has a lot of problems and may not be viable. the bot is doing okay on the test net, but fees kill it. Apparently the way to make money is to have positions on multiple platforms and wait for a discrepancy in the price of a coin. the coin should be chosen carefully, it sbouldnt be a huge coin less prone to volatility, but it shouldnt be a coin that has a realistiv chance of cratering? something like that. Anyway, i have research to do before I fully understand what this strategy eould look like step by step, and i think this will be mucj more complicated behavior to create. but i have to figure this out for the bot to actually be useful.
 
 
 
