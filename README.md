@@ -157,6 +157,14 @@ Need to connect this to a database instead of using a json file
 
 after doing some more research and chatting with crypto heads, ive come to the conclusion that statistical arbitrage, as a primary strategy for a crypto bot, has a lot of problems and may not be viable. the bot is doing okay on the test net, but fees kill it. Apparently the way to make money is to have positions on multiple platforms and wait for a discrepancy in the price of a coin. the coin should be chosen carefully, it sbouldnt be a huge coin less prone to volatility, but it shouldnt be a coin that has a realistiv chance of cratering? something like that. Anyway, i have research to do before I fully understand what this strategy eould look like step by step, and i think this will be mucj more complicated behavior to create. but i have to figure this out for the bot to actually be useful.
 
+------------------------------------
+4/1
+Was pretty sick this weekend/this morning, starting a bit late. The stat arb trading tactic works well, has been running with no errors since friday. So I built a trading bot with the simplest trading behavior (stat arb), but this is also the least useful trading behavior. For most people currently, these bots are almost guaranteed losers over the long term. I will be transitioning this bot from stat arb (trying to take advantage of price variations/predict reversion to the mean) to an arb bot (holds positions on the same coins on different exchanges, and takes advantages of price discrepancies. This behavior is more complex, but with some know-how on the side of the guy running the bot, will likely be profitable. Long term, the best kind of bot to build would be a so called "front runner" bot, that looks for huge trades on DeFi networks, and then very quickly makes a trade to take advantage of the price change the large trade will cause. These bots will make the most money, but are by far the most complex and difficult to make work well. The code will need to be written in a fast language, and it will need to be written efficiently, and it will need to be hosted on a very fast service (default aws probably not good enough, have to shell out for speed). But if a front runner bot is optimized to the point where it is faster than most, it can make a lot of money. This will be a good long term challenge. First step is adding arbitrage to stat arb as a tactic that the bot can use.
+
+I am sort of at a crossroads. THe bot is running, has no UI, if I'm going to make it an arbitrage bot it needs a UI as the user will have to enter information frequently enough that updating to code to change behavior is suboptimal
+
+
+
 
 
 
