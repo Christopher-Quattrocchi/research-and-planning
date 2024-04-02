@@ -167,7 +167,7 @@ Looking at the trades made over the last four days, it looks like there's a prob
 
 --------------------------------------
 4/2
-Learning more about crypto bots and arbitrage. I don't want stat arb or triangular arb. CCXT allows me to easily interact with a bunch of exchanges using a standardized interface, this makes my life a lot easier. So it will connect to and scan various markets through CCXT, then it will attempt to place trades when applicable. This is the first goal. CCXT also makes it easier to manage smart contracts (I think), this would make expanding the bot a lot easier. If the bot can navigate smart loans efficiently, it can access flash loans to make bigger trades. This allows the user to assume greater risk, but is generally the way that it is done for people who know what they're doing (I don't yet, still learning)
+Learning more about crypto bots and arbitrage. I don't want stat arb or triangular arb. CCXT allows me to easily interact with a bunch of exchanges using a standardized interface, this makes my life a lot easier. So it will connect to and scan various markets through CCXT, then it will attempt to place trades when applicable. This is the first goal. CCXT also makes it easier to manage smart contracts (I think), this would make expanding the bot a lot easier. If the bot can navigate smart contracts efficiently, it can access flash loans to make bigger trades. This allows the user to assume greater risk, but is generally the way that it is done for people who know what they're doing (I don't yet, still learning)
 
 
 
