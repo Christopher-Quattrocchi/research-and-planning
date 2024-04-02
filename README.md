@@ -163,6 +163,8 @@ Was pretty sick this weekend/this morning, starting a bit late. The stat arb tra
 
 I am sort of at a crossroads. THe bot is running, has no UI, if I'm going to make it an arbitrage bot it needs a UI as the user will have to enter information frequently enough that updating to code to change behavior is suboptimal
 
+Looking at the trades made over the last four days, it looks like there's a problem with the bot. Resolving this now. Once I finish this part, I need to set up a UI and come up with an algorithm that can do arbitrage. I would like to learn more about front runner bots as well, though that is likely beyond my skill set for the time being.
+
 
 
 
