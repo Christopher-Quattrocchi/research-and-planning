@@ -165,6 +165,11 @@ I am sort of at a crossroads. THe bot is running, has no UI, if I'm going to mak
 
 Looking at the trades made over the last four days, it looks like there's a problem with the bot. Resolving this now. Once I finish this part, I need to set up a UI and come up with an algorithm that can do arbitrage. I would like to learn more about front runner bots as well, though that is likely beyond my skill set for the time being.
 
+--------------------------------------
+4/2
+Learning more about crypto bots and arbitrage. I don't want stat arb or triangular arb. CCXT allows me to easily interact with a bunch of exchanges using a standardized interface, this makes my life a lot easier. So it will connect to and scan various markets through CCXT, then it will attempt to place trades when applicable. This is the first goal. CCXT also makes it easier to manage smart contracts (I think), this would make expanding the bot a lot easier. If the bot can navigate smart loans efficiently, it can access flash loans to make bigger trades. This allows the user to assume greater risk, but is generally the way that it is done for people who know what they're doing (I don't yet, still learning)
+
+
 
 
 
