@@ -169,6 +169,25 @@ Looking at the trades made over the last four days, it looks like there's a prob
 4/2
 Learning more about crypto bots and arbitrage. I don't want stat arb or triangular arb. CCXT allows me to easily interact with a bunch of exchanges using a standardized interface, this makes my life a lot easier. So it will connect to and scan various markets through CCXT, then it will attempt to place trades when applicable. This is the first goal. CCXT also makes it easier to manage smart contracts (I think), this would make expanding the bot a lot easier. If the bot can navigate smart contracts efficiently, it can access flash loans to make bigger trades. This allows the user to assume greater risk, but is generally the way that it is done for people who know what they're doing (I don't yet, still learning)
 
+-----------------------------------------
+4/3
+Modifying func_connections file to interface with ccxt. Used to connect to dydx3. I got rid of unnecessary imports like web3, dydx_api_key etc. It creates an empty dictionary to hold exchange instances. Defines a list of exchange_names that you want to connect to, easy to modify. exchange_names is iterated over for each exchange, and api keys, secrets, and other required params from env using config from python-decouple. Exchange initialized with CCXT exchange classes. getattr used to retrive the exchange class based on name. Load markets for exchange using exchange.load_markets(). Add exchange instance to exchanges dict with exchange name as key. Then it will print a success or error message. Finally, the exchanges dictionary should be returned.
+
+Rewrite of func_private: change abort_all_positions to take exchange param which is instance of ccxt exchange. try-except as usual. fetch open positions w exchange.fetch_positions(). There is a chance this won't work, most exchanges support fetchPositions but not all. Something to grapple with later. Ensure positions is a list. Iterate over positions. For each, determine the order side. Take symbol and amount. create market order to close positions using exchange.create_order(). Message/error handling.
+
+func_public: fetch_market_prices takes exchanges and symbol. iterate over exchanges dict looking for exchange var. exchange.fetch_ticker() ccxt method to get latest price and other market data. Extract last price "ticker['last']". store in prices dict, exchange name as key. Minor error handling (console msg). After iterating, return prices dict w last prices for specified symbol from each exchange.
+construct_market_prices: takes exchanges and symbols. Init empty dict market_prices. Iterate over symbol in symbols list. For each symbol, call fetch_market_prices to find prices from each exch. store prices for current symbol in market_prices dict. After iterating through all symbols, create panda DataFrame containing market prices for specified symbols from each exch.
+
+func_arbitrage: find_arbitrage_opportunities. takes market_prices and min_profit_percentage. Init empty list called opportunities to store identified arbitrage opportunities. Iterate over market_prices dict, accessing symbol and prices vars. for each symbol, find max and min price across all exchanges, using max(prices.values()) and min(prices.values()). Calc potential profit percentage: (max_price - min_price) / min_price * 100. Check if profit is greater than or equal to min_profit_percentage. If so, create dict called opportunity. contains: symbol, buy_exchange, buy_price, sell_exchange, sell_price, profit_percentage. Append opportunity dict to opportunities list. After iteracting throuhg all symbols, return opportunities list.
+
+func_exit_pairs: check_order_status - takes exchange instance and order_id as params, returns status of order using exchange.fetch_order(order_id). close_arbitrage_positions - takes exchange, symbol, order_id. closes arb position. If order status is open, use exchange.cancel_order(order_id). manage_arbitrage_exits - takes exchanges dict and successful_trades list as params. manages the closing of arb positions. Inside, init empy list called closed_trades to store closed trades. Iterate over successsful_trades. Extract info like buy exch, buy order id, sell exch, sell order id. call close_arbitrage_position for buy and sell positions. If buy and sell closed successfully, append the trade to closed_trades. return closed_trades
+
+main: imports, define list of trading pairs (symbols) that we will monitor. To be expanded later. Define min_profit_percentage, max_exposure. in main: call connect_exchanges, start inf loop to monitor. call construct_market_prices, then find_arbitrage_opportunities using the data fetched and min profit. Print opportunities. Call oen_arbitrage_positions to open positions for the identified opportunity, specify max exposure. call manage_arbitrage_exits to manage closing. Print
+
+----------------------------------------------
+4/4
+
+
 
 
 
