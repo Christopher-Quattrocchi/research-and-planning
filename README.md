@@ -187,6 +187,13 @@ main: imports, define list of trading pairs (symbols) that we will monitor. To b
 ----------------------------------------------
 4/4
 
+What I need to incorporate: bot should be able to handle a wide range of price discrepancies and adapt its strategy accordingly. feature to sell a token on one blockchain, bridge the stable coin to another blockchain, and buy the token there at a lower price. the bot should support cross-chain arbitrage and interact with token bridges. holding the same token on different blockchains and simultaneously buying and selling based on the price differences. The bot could maintain balances on multiple chains to take advantage of such opportunities. using L1DEX for bridging tokens across chains when it becomes available, as it is expected to be faster than current options. Integrating the bot with L1DEX could enhance its cross-chain arbitrage capabilities. 
+
+How to do this: 1.	Dynamic pair selection: Allow the bot to dynamically select token pairs based on the observed price discrepancies across exchanges. It should adapt its strategy based on the magnitude of the price differences. 2. Capital allocation: Implement a capital allocation strategy that takes into account the available balance and the potential profitability of each arbitrage opportunity. The bot should prioritize opportunities that offer the best risk-reward ratio. 3.	Cross-chain functionality: Extend the bot's functionality to support cross-chain arbitrage. Integrate with token bridges to facilitate the transfer of tokens across different blockchains. 4.	Multi-chain balance management: Enable the bot to hold and manage token balances on multiple blockchains. It should be able to execute simultaneous buy and sell orders on different chains based on price discrepancies. 5.	L1DEX integration: Once L1DEX becomes available, consider integrating it into the bot to enable faster and more efficient cross-chain arbitrage.
+
+Figuring out what a token bridge is, which I should use, and how to incorporate it
+
+Multichain incorporated. Working on a UI, I think it will help me keep track of everything better. It will be basic for now, just start stop and a lot of parameters to fill
 
 
 
