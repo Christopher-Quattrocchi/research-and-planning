@@ -194,6 +194,7 @@ How to do this: 1.	Dynamic pair selection: Allow the bot to dynamically select t
 Figuring out what a token bridge is, which I should use, and how to incorporate it
 
 Multichain incorporated. Working on a UI, I think it will help me keep track of everything better. It will be basic for now, just start stop and a lot of parameters to fill
+Also need to make it async. that part shouldn't be too bad (???)
 
 
 
