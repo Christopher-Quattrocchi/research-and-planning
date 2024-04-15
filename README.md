@@ -202,6 +202,7 @@ Trying to re-familiarize myself with the project. I know that I need to replace 
 Learning about L1DEX. Technically it is not a bridge, but provides the functionality of one. What this means in practice I'm not sure.
 L1DEX is a no-go for now. The docs/API are still not where they could be. Choosing a temp bridge to use to advance the project until L1DEX is feasible. 
 Thinking about going with Rhino.fi, seems interesting. Faster, avoids a lot of the congestion on eth. Processes orders as batches. Uses smart contracts. Wasn't intended to do smart contracts yet but it might be worth it.
+Scratch that, decided on Stargate for now. Rhino is too complex, might incorporate it later. Stargate will be relatively simple and cheap to use.
 
 
 
