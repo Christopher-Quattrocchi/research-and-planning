@@ -198,7 +198,11 @@ Also need to make it async. that part shouldn't be too bad (???)
 
 -------------------------------------------------
 4/15
-Trying to re-familiarize myself with the project. I know that I need to replace to token bridge; the one I incorporated was deprecated, and L1DEX should be available now
+Trying to re-familiarize myself with the project. I know that I need to replace to token bridge; the one I incorporated was deprecated, and L1DEX should be available now.
+Learning about L1DEX. Technically it is not a bridge, but provides the functionality of one. What this means in practice I'm not sure.
+L1DEX is a no-go for now. The docs/API are still not where they could be. Choosing a temp bridge to use to advance the project until L1DEX is feasible. 
+Thinking about going with Rhino.fi, seems interesting. Faster, avoids a lot of the congestion on eth. Processes orders as batches. Uses smart contracts. Wasn't intended to do smart contracts yet but it might be worth it.
+
 
 
 
