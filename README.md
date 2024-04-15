@@ -196,7 +196,9 @@ Figuring out what a token bridge is, which I should use, and how to incorporate 
 Multichain incorporated. Working on a UI, I think it will help me keep track of everything better. It will be basic for now, just start stop and a lot of parameters to fill
 Also need to make it async. that part shouldn't be too bad (???)
 
-
+-------------------------------------------------
+4/15
+Trying to re-familiarize myself with the project. I know that I need to replace to token bridge; the one I incorporated was deprecated, and L1DEX should be available now
 
 
 
