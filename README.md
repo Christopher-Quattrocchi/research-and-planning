@@ -212,6 +212,7 @@ Feeling a bit out of my depth. If I don't make progress soon I should try to fin
 4/17
 Working on resume and cover letter, getting a bit of outside help. Going to do some easy LC questions. Later today I will remove some ccxt and possibly incorp stargate. Need to practice interview questions in front of a mirror.
 
+Near total rewrite of func_bridge. Still placeholders I need to instantiate elsewhere, but stargate is much closer to being integrated. 
 
 
 
