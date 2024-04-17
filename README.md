@@ -208,6 +208,9 @@ Scratch that, decided on Stargate for now. Rhino is too complex, might incorpora
 4/16
 Okay, I need to speed up. Too much time wasted yesterday researching nonsense. I'm not going to be fancy right now, I just want to get something working. Stargate should work, it has some advanced functionality but should be much easier to implement than some of the other bridges. For today, I want to get the bridge set up at least.
 Feeling a bit out of my depth. If I don't make progress soon I should try to find someone to talk to.
+-----------------------------------------------------
+4/17
+Working on resume and cover letter, getting a bit of outside help. Going to do some easy LC questions. Later today I will remove some ccxt and possibly incorp stargate. Need to practice interview questions in front of a mirror.
 
 
 
