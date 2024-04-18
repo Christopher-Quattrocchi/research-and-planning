@@ -214,7 +214,10 @@ Working on resume and cover letter, getting a bit of outside help. Going to do s
 
 Near total rewrite of func_bridge. Still placeholders I need to instantiate elsewhere, but stargate is much closer to being integrated. 
 It uses the Solidity language for contracts, so I'll have to work that in.
-
+Worked on applications, time to do LC problems
+-------------------------------------------------------
+4/18
+LC
 
 
 
