@@ -219,6 +219,7 @@ Worked on applications, time to do LC problems
 4/18
 LC
 This is not really relevant to the project, but it looks like some of my accounts have been under attack by a botnet for about a month. Interesting, if nothing else
+Creating list of common coding questions/interview questions and answers
 
 
 
