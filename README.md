@@ -223,11 +223,13 @@ Creating list of common coding questions/interview questions and answers
 
 -------------------------------------------------------
 4/24
-I need to update this. I've been overly focused on the interviews, I need to catch up on my project. Reorganizing, probably going to incorporate Flask. 
+I need to update this. I've been focusing on the interviews. Reorganizing, probably going to incorporate Flask. 
 
 -------------------------------------------------------
 4/25
 Reorganized, beginning to incorp flask/react
+emailed SignedPic today to express gratitude and interest
+Working on learning about flask and gradually incorporating it. Trying to do user auth now.
 
 
 
