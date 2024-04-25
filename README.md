@@ -223,7 +223,11 @@ Creating list of common coding questions/interview questions and answers
 
 -------------------------------------------------------
 4/24
-I need to update this. I've been overly focused on the interviews, I need to catch up on my project. 
+I need to update this. I've been overly focused on the interviews, I need to catch up on my project. Reorganizing, probably going to incorporate Flask. 
+
+-------------------------------------------------------
+4/25
+Reorganized, beginning to incorp flask/react
 
 
 
