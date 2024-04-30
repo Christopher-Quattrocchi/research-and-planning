@@ -233,6 +233,7 @@ Working on learning about flask and gradually incorporating it. Trying to do use
 --------------------------------------------------------
 4/29
 Building react front end. Adding massive number of front end files. Will try to get things somewhat set up and do testing, there will be a ton of issues making things play nice together. 
+Okay, front end progressing but is effectively tied to nothing. I will have to fiddle and connect things after
 
 
 
