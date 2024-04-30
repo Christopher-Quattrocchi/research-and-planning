@@ -235,6 +235,8 @@ Working on learning about flask and gradually incorporating it. Trying to do use
 Building react front end. Adding massive number of front end files. Will try to get things somewhat set up and do testing, there will be a ton of issues making things play nice together. 
 Okay, front end progressing but is effectively tied to nothing. I will have to fiddle and connect things after
 
-
+--------------------------------------------------------
+4/30
+Filling out a disconnected front end and fixing bugs to run the thing. next I will connect it to flask
 
 
