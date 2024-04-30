@@ -238,5 +238,7 @@ Okay, front end progressing but is effectively tied to nothing. I will have to f
 --------------------------------------------------------
 4/30
 Filling out a disconnected front end and fixing bugs to run the thing. next I will connect it to flask
+Running into basic problems that I shouldn't be having. Maybe compatibility issues. Going to check old react projects and see if I can figure out what's going on
+Thinking global environment is messed up. Can't even get old projects to work. Problems.
 
 
