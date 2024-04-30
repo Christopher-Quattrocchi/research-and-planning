@@ -230,6 +230,10 @@ I need to update this. I've been focusing on the interviews. Reorganizing, proba
 Reorganized, beginning to incorp flask/react
 emailed SignedPic today to express gratitude and interest
 Working on learning about flask and gradually incorporating it. Trying to do user auth now.
+--------------------------------------------------------
+4/29
+Building react front end. Adding massive number of front end files. Will try to get things somewhat set up and do testing, there will be a ton of issues making things play nice together. 
+
 
 
 
