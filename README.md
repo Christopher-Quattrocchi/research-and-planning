@@ -246,5 +246,6 @@ Finally fixed the environment, things are running.
 ---------------------------------------------------------
 5/1
 Success! Front end at least runs. Massive amount of errors, but it works!
+Battling routes. Have resolved a lot of errors, still isn't displaying properly. The routes are messed up
 
 
