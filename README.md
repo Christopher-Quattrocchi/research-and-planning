@@ -243,4 +243,8 @@ Thinking global environment is messed up. Can't even get old projects to work. P
 Need to simplify environment. Removed NVM, and removed references in environmental variables. Attempting a clean install of NPM, running into some errors. 
 Finally fixed the environment, things are running. 
 
+---------------------------------------------------------
+5/1
+Success! Front end at least runs. Massive amount of errors, but it works!
+
 
