@@ -247,5 +247,7 @@ Finally fixed the environment, things are running.
 5/1
 Success! Front end at least runs. Massive amount of errors, but it works!
 Battling routes. Have resolved a lot of errors, still isn't displaying properly. The routes are messed up
+Front end is displaying now, but is wonky. The routes are in index. did this to test, but to my surprise the components appeared
+
 
 
