@@ -241,5 +241,6 @@ Filling out a disconnected front end and fixing bugs to run the thing. next I wi
 Running into basic problems that I shouldn't be having. Maybe compatibility issues. Going to check old react projects and see if I can figure out what's going on
 Thinking global environment is messed up. Can't even get old projects to work. Problems.
 Need to simplify environment. Removed NVM, and removed references in environmental variables. Attempting a clean install of NPM, running into some errors. 
+Finally fixed the environment, things are running. 
 
 
