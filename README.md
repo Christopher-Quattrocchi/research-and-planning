@@ -255,5 +255,6 @@ Figuring out how to integrate react and
 ---------------------------------------------------------
 5/2
 flask and react issues
+removing old front end, replacing with alt-frontend. 
 
 
