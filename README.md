@@ -249,5 +249,11 @@ Success! Front end at least runs. Massive amount of errors, but it works!
 Battling routes. Have resolved a lot of errors, still isn't displaying properly. The routes are messed up
 Front end is displaying now, but is wonky. The routes are in index. did this to test, but to my surprise the components appeared
 Persistent errors getting things to display, I'm positive it's a conflict between the venv and global env. Removing venv because I don't have the time
-Figuring out how to integrate react and flask
+Figuring out how to integrate react and 
+
+
+---------------------------------------------------------
+5/2
+flask and react issues
+
 
