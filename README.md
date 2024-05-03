@@ -258,4 +258,8 @@ flask and react issues
 removing old front end, replacing with alt-frontend. 
 figuring out how everything connects
 Fixed stuff, app.py works, flask connects
+installing material-UI, gonna try to make the react components look better
+
+---------------------------------------------------------
+5/3 started at 430ish, added a ton of material UI stuff. Lots of errors. 
 
