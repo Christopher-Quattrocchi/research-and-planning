@@ -263,4 +263,5 @@ installing material-UI, gonna try to make the react components look better
 ---------------------------------------------------------
 5/3 started at 430ish, added a ton of material UI stuff. Lots of errors. 
 Errors resolved, react components are rendered with material UI styles (mostly). 
+Pushing my last updates
 
